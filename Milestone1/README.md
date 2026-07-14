@@ -211,12 +211,12 @@ The login page allows registered users to securely access the Intelligent Freigh
 ![Login Page](screenshots/login%20page.png)
 
 ---
-
 ## Registration Page
 
-The registration page enables new users to create an account by providing their username, email address, password, security question, and security answer. The application validates all required fields, verifies the email format, checks password strength, and securely stores the encrypted user credentials in the database.
+The registration page enables new users to create an account by providing their username, email address, password, security question, and security answer. The application validates all mandatory fields, verifies the email format, checks password strength, and securely stores the encrypted user information in the database.
 
-![Registration Page](screenshots/registration%20page.png)
+![Registration Page](screenshots/sign%20up.png)
+
 ---
 
 ## Forgot Password
