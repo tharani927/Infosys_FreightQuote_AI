@@ -204,6 +204,60 @@ Administrator Monitoring
 
 ---
 
+## Login Page
+
+The login page allows registered users to securely access the Intelligent Freight Quote Generation platform using their email address and password.
+
+![Login Page](screenshots/login%20page.png)
+
+---
+
+## Registration Page
+
+The registration page enables new users to create an account by entering their username, email address, password, security question, and security answer.
+
+![Registration Page](screenshots/signup%20page.png)
+
+---
+
+## Forgot Password
+
+The Forgot Password module allows users to recover their account securely through two verification methods.
+
+![Forgot Password](screenshots/forgot%20password%20page.png)
+
+---
+
+## Security Question Verification
+
+Users can reset their password by answering the security question selected during registration.
+
+![Security Question](screenshots/security%20check%20page.png)
+
+---
+
+## OTP Verification
+
+A six-digit One-Time Password (OTP) is generated and sent to the user's registered email address for secure password recovery.
+
+![OTP Verification](screenshots/otp%20page.png)
+
+---
+
+## User Dashboard
+
+After successful login, users are redirected to the Freight Operations Dashboard where they can access system information and analytics.
+
+![User Dashboard](screenshots/dashboard.png)
+
+---
+
+## Admin Dashboard
+
+The administrator dashboard provides access to registered user information and administrative controls while maintaining password security.
+
+![Admin Dashboard](screenshots/admin%20dashboard.png)
+
 
 # 📈 Future Enhancements
 
