@@ -99,6 +99,68 @@ The following security mechanisms have been implemented:
 | Pyngrok | Public Deployment |
 
 ---
+# 🛠 Technologies Used
+
+The project was developed using the following technologies and libraries:
+
+- **Python** – Backend programming language
+- **Streamlit** – Web application framework
+- **SQLite** – Database for storing user information
+- **bcrypt** – Password hashing and encryption
+- **JWT (JSON Web Token)** – Secure user session management
+- **SMTP (Gmail)** – Sending OTP emails for password recovery
+- **Pyngrok** – Creating a public URL for accessing the Streamlit application
+- **Plotly** – Interactive dashboard visualization
+- **Google Colab** – Development and execution environment
+- **Google Colab Secrets** – Secure storage of sensitive credentials
+
+---
+
+# ⚙️ Project Implementation
+
+## Install Required Libraries
+
+The required Python libraries were installed using pip, including Streamlit, bcrypt, JWT, Plotly, and Pyngrok.
+
+---
+
+## Configure the Application
+
+The application was created using Streamlit with a responsive user interface. A custom color theme and styling were applied to provide a professional appearance suitable for a freight management platform.
+
+---
+
+
+
+## Google Colab Secrets
+
+Sensitive information was stored using Google Colab Secrets, including:
+
+- EMAIL_ADDRESS
+- EMAIL_PASSWORD
+- JWT_SECRET
+- NGROK_AUTHTOKEN
+- ADMIN_PASSWORD
+
+This prevents sensitive credentials from being hardcoded in the source code.
+
+---
+## Ngrok Authentication and Deployment
+
+To make the Streamlit application accessible over the internet, **Pyngrok** was used to create a secure public URL. The following steps were performed:
+
+1. Created an account on the **ngrok** website and generated an **authentication token**.
+2. Opened the **Google Colab Secrets** panel.
+3. Added a new secret with the name **NGROK_AUTHTOKEN**.
+4. Enabled notebook access for the secret.
+5. Retrieved the authentication token securely using `userdata.get("NGROK_AUTHTOKEN")`.
+6. Configured Pyngrok by calling `ngrok.set_auth_token()` with the retrieved token.
+7. Stopped any previously running Streamlit processes to avoid port conflicts.
+8. Started the Streamlit application on port **8501** using the `subprocess` module.
+9. Created a secure public tunnel using `ngrok.connect(8501)`.
+10. Displayed the generated public URL, allowing the application to be accessed from any browser for testing and demonstration.
+11. After testing was completed, the Streamlit process and ngrok tunnel were terminated to release system resources.
+
 
 # 📂 Project Workflow
 
