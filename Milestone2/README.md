@@ -1,147 +1,168 @@
 # 🚢 FreightQuote AI
 ## Intelligent Maritime Brokerage Platform
-
 ### Infosys Springboard Internship – Milestone 2
 
 ---
 
 # 📖 Project Overview
 
-FreightQuote AI is an AI-powered maritime logistics platform developed as part of the Infosys Springboard Internship. The application combines Secure Authentication, Artificial Intelligence, Machine Learning, and Data Analytics to automate freight quotation generation and logistics decision-making.
+FreightQuote AI is an AI-powered maritime logistics platform developed as part of the Infosys Springboard Internship Program. The objective of this project is to simplify freight quotation generation and logistics decision-making using Artificial Intelligence, Machine Learning, and Secure Authentication.
 
-The project enables users to estimate freight costs, analyze shipping routes, evaluate carrier performance, and receive intelligent recommendations through an AI-powered logistics assistant. The platform is developed using Streamlit, SQLite, Hugging Face Large Language Models, and Machine Learning models trained on Kaggle datasets.
+The application enables users to estimate freight pricing, analyze shipping routes and weather conditions, evaluate carrier compliance, and interact with an AI-powered logistics assistant. The platform is built using Streamlit and follows a modular architecture with separate Python modules for authentication, AI integration, machine learning, analytics, and administration.
 
 ---
 
 # 🎯 Project Objectives
 
 - Develop a secure logistics web application.
-- Implement JWT-based user authentication.
-- Integrate Hugging Face AI Copilot.
-- Train Machine Learning models using Kaggle datasets.
+- Implement user authentication using JWT.
+- Integrate AI-powered logistics assistance.
+- Train multiple Machine Learning models.
 - Predict freight pricing.
-- Analyze shipping routes and weather.
+- Analyze shipping routes.
 - Evaluate carrier compliance.
-- Build an Admin Dashboard for monitoring and management.
+- Build an enterprise Admin Dashboard.
 
 ---
 
-# 🛠 Technologies Used
+# 🛠 Technology Stack
+
+### Programming Language
 
 - Python
+
+### Frontend
+
 - Streamlit
+
+### Database
+
 - SQLite
+
+### Machine Learning
+
+- Scikit-Learn
 - Pandas
 - NumPy
-- Scikit-Learn
+- Joblib
+
+### Artificial Intelligence
+
 - Hugging Face Transformers
+- Qwen 2.5 3B Instruct Model
+
+### APIs
+
+- Hugging Face API
 - Kaggle API
-- JWT
-- Bcrypt
-- Google Colab
 - ngrok
+
+### Security
+
+- JWT Authentication
+- Password Hashing (Bcrypt)
+- OTP Verification
 
 ---
 
 # 🔐 Sign In Page
 
-The Sign In page provides secure authentication for registered users. Users can log in using their email and password. JWT authentication validates user credentials and grants secure access to the application.
+The Sign In page provides secure authentication for registered users. JWT authentication validates the credentials and allows authorized users to access the FreightQuote AI platform.
 
 ### Features
 
 - Secure Login
 - JWT Authentication
 - Password Encryption
+- Session Management
 - Progressive Account Lock
-- Secure User Session
 
-![Sign In Page](signin page.png)
+![Sign In Page](signin%20page.png)
 
 ---
 
 # 📝 Register Page
 
-The Register Page allows new users to create an account securely. Password strength validation ensures that users create strong passwords before registration.
+The Register page enables new users to create an account securely. Password strength validation ensures users choose strong passwords, while passwords are stored securely using Bcrypt hashing.
 
 ### Features
 
-- New User Registration
-- Password Strength Checker
+- User Registration
+- Password Strength Validation
 - Email Validation
-- Password Hashing using Bcrypt
-- Secure User Creation
+- Secure Password Hashing
+- Duplicate User Prevention
 
-![Register Page](register page.png)
+![Register Page](register%20page.png)
 
 ---
 
 # 🔑 Reset Password Page
 
-The Reset Password module enables users to securely recover their accounts using OTP verification and password reset functionality.
+Users who forget their password can securely reset it using OTP verification. This feature ensures account recovery while maintaining application security.
 
 ### Features
 
 - Forgot Password
 - OTP Verification
 - Password Reset
-- OTP Cooldown
 - Secure Password Update
+- OTP Cooldown
 
-![Reset Password Page](reset password page.png)
+![Reset Password Page](reset%20password%20page.png)
 
 ---
 
 # 🤖 AI Copilot
 
-The AI Copilot is powered by the Hugging Face Qwen 2.5 3B Instruct Large Language Model. It assists users by answering logistics-related questions and providing intelligent shipping recommendations.
+The AI Copilot is powered by the Hugging Face Qwen 2.5 3B Instruct Large Language Model. It assists users by answering freight and logistics-related questions using natural language.
 
 ### Features
 
-- Hugging Face Integration
 - AI Chat Assistant
-- Logistics Guidance
-- Freight Recommendations
-- Shipping Suggestions
+- Freight Guidance
+- Logistics Recommendations
 - Natural Language Interaction
+- Hugging Face Integration
 
-![AI Copilot](ai copilot page.png)
+![AI Copilot](ai%20copilot%20page.png)
 
 ---
 
 # 💬 AI Copilot Response
 
-After receiving user queries, the AI Copilot generates intelligent responses using the Hugging Face Large Language Model. It provides practical logistics advice, shipment recommendations, and route guidance.
+The AI Copilot generates intelligent responses to user queries, helping users make informed logistics and shipment decisions.
 
 ### Features
 
-- Intelligent AI Responses
-- Context-Based Suggestions
+- Intelligent Responses
+- Context-Aware Suggestions
 - Logistics Assistance
 - Interactive Conversation
 
-![AI Copilot Response](ai copilot page (2).png)
+![AI Copilot Response](ai%20copilot%20page%20(2).png)
 
 ---
 
 # 💰 Pricing Page
 
-The Pricing Page predicts estimated freight costs based on shipment information entered by the user. The prediction is generated using trained Machine Learning models.
+The Pricing Page predicts the estimated freight cost based on shipment information entered by the user. The prediction is generated using trained Machine Learning models.
 
 ### Features
 
 - Freight Cost Prediction
 - Shipment Cost Estimation
 - Machine Learning Prediction
-- Fast Processing
+- Instant Results
 - Champion Model Selection
 
-![Pricing Page](pricing page.png)
+![Pricing Page](pricing%20page.png)
 
 ---
 
-# 🌦 Route & Weather Page
+# 🌦 Route & Weather Analysis
 
-The Route & Weather module analyzes transportation routes together with weather conditions to recommend safe and efficient shipment routes.
+This module analyzes shipping routes together with weather conditions to recommend the safest and most efficient transportation path.
 
 ### Features
 
@@ -151,13 +172,13 @@ The Route & Weather module analyzes transportation routes together with weather 
 - Risk Identification
 - Shipment Recommendations
 
-![Route & Weather Page](routeweather page.png)
+![Route & Weather](routeweather%20page.png)
 
 ---
 
-# 🚢 Carrier Audit Page
+# 🚢 Carrier Audit
 
-The Carrier Audit module evaluates carrier performance and predicts carrier compliance using trained Machine Learning models. It assists users in selecting reliable logistics partners.
+The Carrier Audit module evaluates carrier performance and predicts carrier compliance using Machine Learning models trained on logistics datasets.
 
 ### Features
 
@@ -167,46 +188,45 @@ The Carrier Audit module evaluates carrier performance and predicts carrier comp
 - Carrier Rating
 - Audit Summary
 
-![Carrier Audit Page](carrier audit page.png)
+![Carrier Audit](carrier%20audit%20page.png)
 
 ---
 
 # 📊 Analytics Dashboard
 
-The Analytics Dashboard provides visual insights into prediction statistics and machine learning performance using interactive charts and summaries.
+The Analytics Dashboard displays visual insights into predictions, machine learning performance, and logistics statistics using interactive charts.
 
 ### Features
 
-- Prediction Statistics
 - Interactive Charts
-- Model Performance
+- Prediction Statistics
 - Shipment Analytics
+- Machine Learning Performance
 - Dashboard Visualization
 
-![Analytics Dashboard](analytics page.png)
+![Analytics Dashboard](analytics%20page.png)
 
 ---
 
 # 👨‍💼 Admin Dashboard
 
-The Admin Dashboard provides centralized administration and monitoring capabilities. Administrators can manage users, monitor activity, and review system performance.
+The Admin Dashboard provides complete administrative control over the application. It enables administrators to monitor users, manage accounts, and view system analytics.
 
 ### Features
 
 - User Management
-- Account Monitoring
 - Unlock Locked Accounts
-- Administrative Controls
 - System Monitoring
-- Dashboard Overview
+- Dashboard Analytics
+- Administrative Controls
 
-![Admin Dashboard](admin dashboard page.png)
+![Admin Dashboard](admin%20dashboard%20page.png)
 
 ---
 
-# 🤖 Machine Learning
+# 🤖 Machine Learning Implementation
 
-Multiple Machine Learning algorithms were trained using logistics datasets downloaded through the Kaggle API.
+The project trains multiple Machine Learning models using logistics datasets downloaded through the Kaggle API.
 
 ### Algorithms Used
 
@@ -221,36 +241,35 @@ Multiple Machine Learning algorithms were trained using logistics datasets downl
 - Support Vector Machine (SVM)
 - Multi Layer Perceptron (MLP)
 
-The system compares all trained models and automatically selects the Champion Model based on prediction performance.
+The application compares all trained models and automatically selects the Champion Model for making predictions.
 
 ---
 
-# 📦 Kaggle Dataset Integration
+# 📦 Kaggle Integration
 
-The project uses Kaggle datasets to train Machine Learning models for freight prediction, route analysis, and carrier audit.
+The project uses Kaggle datasets for training Machine Learning models.
 
-### Implementation
+### Implementation Steps
 
 - Created Kaggle Account
 - Generated Kaggle API Credentials
-- Stored Credentials in Google Colab Secrets
+- Stored Credentials securely in Google Colab Secrets
 - Downloaded Logistics Datasets
 - Data Preprocessing
-- Feature Engineering
-- Model Training
+- Machine Learning Training
 - Champion Model Selection
 
 ---
 
 # 🤖 Hugging Face Integration
 
-The AI Copilot is integrated with the Hugging Face Qwen 2.5 3B Instruct model.
+The AI Copilot uses the Hugging Face Qwen 2.5 3B Instruct model.
 
-### Implementation
+### Implementation Steps
 
 - Created Hugging Face Account
 - Generated API Token
-- Stored Token in Google Colab Secrets
+- Stored API Token in Google Colab Secrets
 - Connected AI Copilot
 - Generated Intelligent Responses
 
@@ -258,15 +277,15 @@ The AI Copilot is integrated with the Hugging Face Qwen 2.5 3B Instruct model.
 
 # 🔒 Security Features
 
-The application follows secure software engineering practices.
+The application follows modern secure software engineering practices.
 
-### Implemented Security Features
+### Implemented Features
 
 - JWT Authentication
 - Password Hashing using Bcrypt
-- Password Strength Validation
+- Password Strength Checker
 - OTP Verification
-- Progressive Account Lock
+- Progressive Account Lockout
 - Secure Session Management
 - Role-Based Authentication
 
@@ -274,7 +293,7 @@ The application follows secure software engineering practices.
 
 # 🚀 Deployment
 
-The application was developed and tested using Google Colab. Streamlit was used to create the web interface, and ngrok generated a secure public URL for accessing the application through a web browser.
+The application was developed and executed using Google Colab. Streamlit was used to build the user interface, and ngrok generated a secure public URL for remote access.
 
 ---
 
@@ -298,20 +317,22 @@ FreightQuote_AI/
 ├── agent3_freight.py
 ├── requirements.txt
 ├── README.md
-├── signin page.png
-├── register page.png
-├── reset password page.png
-├── ai copilot page.png
-├── ai copilot page (2).png
-├── pricing page.png
-├── routeweather page.png
-├── carrier audit page.png
-├── analytics page.png
-└── admin dashboard page.png
+└── Project Screenshots
 ```
+
+---
+
+# 🎯 Future Enhancements
+
+- Live Weather API Integration
+- Real-Time Vessel Tracking
+- PDF Freight Quote Generation
+- Email Notification System
+- Docker Deployment
+- Cloud Deployment (Azure/AWS)
 
 ---
 
 # ✅ Conclusion
 
-FreightQuote AI successfully integrates Secure Authentication, Artificial Intelligence, Machine Learning, and Data Analytics into a single enterprise-level logistics platform. The project demonstrates practical implementation of secure software engineering principles, predictive analytics, intelligent decision support, and modern web application development, making it a comprehensive solution for freight quotation and logistics management.
+FreightQuote AI successfully integrates Secure Authentication, Artificial Intelligence, Machine Learning, and Interactive Dashboards into a single enterprise-level logistics platform. The project demonstrates secure software engineering principles, predictive analytics, AI-assisted decision-making, and modern web application development for intelligent freight management.
