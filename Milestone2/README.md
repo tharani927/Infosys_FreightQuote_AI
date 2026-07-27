@@ -79,7 +79,7 @@ The Sign In page provides secure authentication for registered users. JWT authen
 
 The Login Page provides a secure entry point for registered users to access the FreightQuote AI Portal. Users authenticate using their registered email or username and password. The system validates credentials, manages user sessions using JWT authentication, and protects accounts with progressive lockout mechanisms after multiple failed login attempts.
 
-![Login Page](login_page.png)
+![Login Page](screenshots/login_page.png)
 
 ---
 
