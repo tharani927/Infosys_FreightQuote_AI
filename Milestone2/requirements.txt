@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+matplotlib
+joblib
+bcrypt
+PyJWT
+python-dotenv
+requests
+pyngrok
+kaggle
+huggingface_hub
+transformers
+torch
