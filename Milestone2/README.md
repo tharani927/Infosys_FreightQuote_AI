@@ -97,7 +97,7 @@ The Register page enables new users to create an account securely. Password stre
 
 The Register Page allows new users to create an account by entering their personal information, selecting a role, and setting a secure password. The application performs password strength validation, prevents duplicate registrations, and securely stores user credentials using Bcrypt password hashing.
 
-![Register Page](register_page.png)
+![Register Page](screenshots/register_page.png.png)
 
 ---
 
@@ -115,7 +115,7 @@ Users who forget their password can securely reset it using OTP verification. Th
 
 The Reset Password page enables users to recover access to their accounts securely using OTP verification or a security question. A one-time password is sent to the registered email address, allowing users to verify their identity and create a new password while maintaining account security.
 
-![Reset Password](reset_password.png)
+![Reset Password](screenshots/reset_password.png.png)
 ---
 
 # 🤖 AI Copilot
@@ -136,7 +136,7 @@ The AI Copilot is powered by the Hugging Face Qwen 2.5 3B Instruct Large Languag
 
 This page serves as the entry point to the AI Copilot. Users can access the AI assistant, explore its capabilities, and begin interacting with the logistics chatbot through a simple and intuitive interface.
 
-![AI Copilot Home](ai_copilot_home.png)
+![AI Copilot Home](screenshots/ai_copilot_home.png.png)
 
 ---
 
@@ -144,7 +144,7 @@ This page serves as the entry point to the AI Copilot. Users can access the AI a
 
 This page displays the conversational interface where users can ask freight and logistics-related questions. The AI Copilot processes the user's query, generates intelligent responses, and provides recommendations based on the context, making logistics planning more efficient and interactive.
 
-![AI Copilot Chat](ai_copilot_chat.png)
+![AI Copilot Chat](screenshots/ai_copilot_chat.png.png)
 
 ---
 
@@ -158,7 +158,7 @@ The Freight Pricing module uses Machine Learning to estimate the shipping cost b
 
 This page allows users to enter shipment details and receive an estimated freight cost instantly. The prediction is generated using the best-performing Machine Learning model selected during the training process. The dashboard provides users with a fast and reliable way to estimate transportation costs before shipment.
 
-![Freight Pricing Dashboard](agent1_pricing.png)
+![Freight Pricing Dashboard](screenshots/agent1_pricing.png.png)
 
 ---
 
@@ -172,7 +172,7 @@ The Route & Weather Analysis module helps users identify the most efficient ship
 
 This page displays the optimal shipping route between the selected source and destination. It provides route information, estimated distance, travel time, and recommendations to help users choose the most efficient path for freight transportation.
 
-![Route & Weather Dashboard - Route Analysis](agent2_route_weather_1.png)
+![Route & Weather Dashboard - Route Analysis](screenshots/agent2_route_weather_1.png.png)
 
 ---
 
@@ -180,7 +180,7 @@ This page displays the optimal shipping route between the selected source and de
 
 This page presents weather conditions and environmental factors that may affect shipment delivery. It helps users identify possible weather-related risks and supports better logistics planning by recommending safer transportation schedules and routes.
 
-![Route & Weather Dashboard - Weather Analysis](agent2_route_weather_2.png)
+![Route & Weather Dashboard - Weather Analysis](screenshots/agent2_route_weather_2.png.png)
 
 ---
 
@@ -194,7 +194,7 @@ The Carrier Audit module evaluates the performance and compliance of logistics c
 
 This page displays a comprehensive audit of carriers, including compliance status, performance ratings, risk assessments, and operational insights. It enables users to evaluate carrier reliability and supports better logistics planning through data-driven analysis.
 
-![Carrier Audit Dashboard](agent3_carrier_audit.png)
+![Carrier Audit Dashboard](screenshots/agent3_carrier_audit.png.png)
 
 ---
 
@@ -208,7 +208,7 @@ The Analytics Dashboard provides valuable insights into freight operations, mach
 
 This page presents an overview of the analytics dashboard, displaying key metrics, freight statistics, and a summary of system performance.
 
-![Analytics Dashboard - Overview](analytics_dashboard_1.png)
+![Analytics Dashboard - Overview](screenshots/analytics_dashboard_1.png.png)
 
 ---
 
@@ -216,7 +216,7 @@ This page presents an overview of the analytics dashboard, displaying key metric
 
 This section displays machine learning performance metrics, prediction accuracy, model comparison results, and other analytical information that helps evaluate the effectiveness of the trained models.
 
-![Analytics Dashboard - Machine Learning Insights](analytics_dashboard_2.png)
+![Analytics Dashboard - Machine Learning Insights](screenshots/analytics_dashboard_2.png.png)
 
 ---
 
@@ -224,7 +224,7 @@ This section displays machine learning performance metrics, prediction accuracy,
 
 This page contains interactive charts, graphical reports, and detailed visualizations of freight predictions, logistics trends, and overall application statistics to support informed decision-making.
 
-![Analytics Dashboard - Reports & Visualizations](analytics_dashboard_3.png)
+![Analytics Dashboard - Reports & Visualizations](screenshots/analytics_dashboard_3.png.png)
 
 ---
 
@@ -238,7 +238,7 @@ The Admin Dashboard provides administrators with complete control over the Freig
 
 This page displays the overall system status, including key performance metrics and quick access to administrative features.
 
-![Admin Dashboard - Overview](admin_dashboard_1.png)
+![Admin Dashboard - Overview](screenshots/admin_dashboard_1.png.png)
 
 ---
 
@@ -246,7 +246,7 @@ This page displays the overall system status, including key performance metrics 
 
 Administrators can view all registered users, manage user accounts, unlock locked accounts, and perform administrative actions.
 
-![Admin Dashboard - User Management](admin_dashboard_2.png)
+![Admin Dashboard - User Management](screenshots/admin_dashboard_2.png.png)
 
 ---
 
@@ -254,7 +254,7 @@ Administrators can view all registered users, manage user accounts, unlock locke
 
 This section provides analytical insights into system usage, user activities, and freight-related statistics through interactive charts.
 
-![Admin Dashboard - Analytics](admin_dashboard_3.png)
+![Admin Dashboard - Analytics](screenshots/admin_dashboard_3.png.png)
 
 ---
 
@@ -262,7 +262,7 @@ This section provides analytical insights into system usage, user activities, an
 
 Displays real-time monitoring information, system health, machine learning model status, and operational metrics.
 
-![Admin Dashboard - System Monitoring](admin_dashboard_4.png)
+![Admin Dashboard - System Monitoring](screenshots/admin_dashboard_4.png.png)
 
 ---
 
@@ -270,7 +270,7 @@ Displays real-time monitoring information, system health, machine learning model
 
 Shows detailed system logs, recent administrative actions, and application events for monitoring and auditing purposes.
 
-![Admin Dashboard - Activity Logs](admin_dashboard_5.png)
+![Admin Dashboard - Activity Logs](screenshots/admin_dashboard_5.png.png)
 
 # 🤖 Machine Learning Implementation
 
