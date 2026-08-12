@@ -1,26 +1,26 @@
-# 🚢 Intelligent Freight Quote Generation
+# 🚢 Agentic AI Maritime Freight Pricing and Route Optimization
 
-An AI-powered freight quotation platform designed to simplify and secure the freight quotation process through intelligent authentication, user management, and secure access control.
+An AI-powered maritime freight platform designed to simplify and secure the freight pricing and route optimization process through intelligent authentication, user management, and secure access control.
 
-This project was developed as part of the **Infosys Springboard Internship – Milestone 1** to demonstrate secure authentication, role-based access, and modern web application development using Python and Streamlit.
+This project was developed as part of the **Infosys Springboard Internship – Milestone 1** and focuses on establishing the secure authentication and user management foundation for the **Agentic AI Maritime Freight Pricing and Route Optimization** platform.
 
 ---
 
 # 📌 About the Project
 
-Freight quotation is one of the most important processes in the logistics and shipping industry. Before any shipment is booked, brokers and customers need to exchange freight quotations securely.
+Maritime freight pricing and route optimization are important processes in the logistics and shipping industry. Before any shipment is planned or booked, brokers and customers need to exchange freight-related information securely.
 
-This project focuses on building the authentication module of an Intelligent Freight Quote Generation platform.
+This project focuses on building the authentication and access-control module for an **Agentic AI Maritime Freight Pricing and Route Optimization** platform.
 
-The application provides a secure environment where users can register, authenticate themselves, recover forgotten passwords, and access their personalized dashboard. A dedicated administrator dashboard enables monitoring of registered users while maintaining complete password security.
+The application provides a secure environment where users can register, authenticate themselves, recover forgotten passwords, and access their personalized dashboard. A dedicated administrator dashboard enables monitoring of registered users while maintaining secure password handling.
 
-The system has been designed with scalability in mind so that AI-based freight quotation modules can be integrated in future milestones.
+The system has been designed with scalability in mind so that AI-powered freight pricing, route optimization, analytics, and other intelligent maritime logistics modules can be integrated in subsequent milestones.
 
 ---
 
 # 🎯 Problem Statement
 
-Traditional freight management systems often suffer from
+Traditional maritime freight management systems often suffer from:
 
 - Weak authentication mechanisms
 - Insecure password storage
@@ -28,9 +28,10 @@ Traditional freight management systems often suffer from
 - Lack of secure password recovery
 - No role-based access control
 
-This project addresses these issues by implementing a secure authentication system using industry-standard security practices.
+This project addresses these issues by implementing a secure authentication system using industry-standard security practices and establishing a reliable foundation for the future AI-powered maritime freight platform.
 
 ---
+
 
 # 🚀 Features
 
