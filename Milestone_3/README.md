@@ -1,4 +1,4 @@
-# 🚢 Agentic AI Maritime Freight Pricing and Route Optimization
+# Agentic AI Maritime Freight Pricing and Route Optimization
 
 **Infosys Springboard Internship Project – Milestone 3**
 
