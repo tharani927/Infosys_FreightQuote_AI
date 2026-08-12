@@ -1,12 +1,14 @@
-# 🚢 FreightQuote AI
+# 🚢 Agentic AI Maritime Freight Pricing and Route Optimization
+
 ## Intelligent Maritime Brokerage Platform
+
 ### Infosys Springboard Internship – Milestone 2
 
 ---
 
 # 📖 Project Overview
 
-FreightQuote AI is an AI-powered maritime logistics platform developed as part of the Infosys Springboard Internship Program. The objective of this project is to simplify freight quotation generation and logistics decision-making using Artificial Intelligence, Machine Learning, and Secure Authentication.
+Agentic AI Maritime Freight Pricing and Route Optimization is an AI-powered maritime logistics platform developed as part of the Infosys Springboard Internship Program. The objective of this project is to simplify freight pricing and route optimization and support logistics decision-making using Artificial Intelligence, Machine Learning, and Secure Authentication.
 
 The application enables users to estimate freight pricing, analyze shipping routes and weather conditions, evaluate carrier compliance, and interact with an AI-powered logistics assistant. The platform is built using Streamlit and follows a modular architecture with separate Python modules for authentication, AI integration, machine learning, analytics, and administration.
 
@@ -14,13 +16,14 @@ The application enables users to estimate freight pricing, analyze shipping rout
 
 # 🎯 Project Objectives
 
-- Develop a secure logistics web application.
+- Develop a secure maritime logistics web application.
 - Implement user authentication using JWT.
 - Integrate AI-powered logistics assistance.
 - Train multiple Machine Learning models.
-- Predict freight pricing.
-- Analyze shipping routes.
-- Evaluate carrier compliance.
+- Predict maritime freight pricing.
+- Analyze and optimize shipping routes.
+- Analyze weather conditions affecting maritime transportation.
+- Evaluate carrier compliance and performance.
 - Build an enterprise Admin Dashboard.
 
 ---
