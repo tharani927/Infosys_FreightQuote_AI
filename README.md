@@ -2,312 +2,327 @@
 
 # 🚢 FreightQuote AI
 
-### **Agentic AI for Maritime Freight Pricing & Route Optimization**
+### **MARITIME FREIGHT INTELLIGENCE, BUILT AS A TEAM OF SPECIALISED AGENTS**
 
 <p>
-  🤖 <b>9 Specialised Agents</b> &nbsp;•&nbsp;
-  🧠 <b>Grounded AI Copilot</b> &nbsp;•&nbsp;
-  📊 <b>ML Intelligence</b> &nbsp;•&nbsp;
-  📚 <b>RAG</b>
+  <strong>Price smarter · Route better · Understand risk · Work with documents</strong>
 </p>
 
+<br>
+
+| 🤖 AGENTIC AI | 🧠 GROUNDED COPILOT | 📊 ML INTELLIGENCE | 📚 RAG |
+|:---:|:---:|:---:|:---:|
+| **9 Agents** | **Evidence-first answers** | **Prediction & analysis** | **PDF knowledge retrieval** |
+
+<br>
+
 ![Infosys Springboard](https://img.shields.io/badge/Infosys%20Springboard-Internship%20Batch%201-0b5cab?style=for-the-badge)
-![Project](https://img.shields.io/badge/Project-FreightQuote%20AI-16a085?style=for-the-badge)
-![Agents](https://img.shields.io/badge/Agents-9-6f42c1?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-Vector%20Search-4285F4?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Qwen](https://img.shields.io/badge/Qwen2.5--3B-LLM-7B2CBF?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 </div>
 
 ---
 
-## 📑 Table of Contents
+## 🌊 What is FreightQuote AI?
 
-- [Program & Team](#-program--team)
-- [Project Overview](#-project-overview)
-- [Objectives](#-objectives)
-- [System Architecture](#-system-architecture)
-- [The 9 Specialised Agents](#-the-9-specialised-agents)
-- [Technology Stack](#-technology-stack)
-- [AI Copilot](#-ai-copilot)
-- [Authentication & Security](#-authentication--security)
-- [Admin Dashboard](#-admin-dashboard)
-- [Machine Learning](#-machine-learning)
-- [Screenshots & Demo](#-screenshots--demo)
-- [Installation & Run](#-installation--run)
-- [Secrets & Environment Variables](#-secrets--environment-variables)
-- [Challenges & Learnings](#-challenges--learnings)
-- [Future Scope](#-future-scope)
-- [Acknowledgements](#-acknowledgements)
+**FreightQuote AI** is an agentic decision-support platform for maritime freight operations.
+
+Instead of making users move between separate tools for pricing, routing, weather, carriers, customs and documents, the platform brings these capabilities together through **nine specialised agents**, a **grounded AI Copilot**, machine-learning models and document retrieval.
+
+> **One platform. Multiple freight-intelligence capabilities. Grounded decisions.**
 
 ---
 
-## 👥 Program & Team
+## ⚡ Platform at a Glance
+
+| Capability | What the platform provides |
+|---|---|
+| 💰 **Pricing** | Freight quote prediction, rate analysis and margin intelligence |
+| 🗺️ **Routing** | Route optimisation and port/congestion intelligence |
+| 🚢 **Carrier Intelligence** | Carrier reliability, safety and capacity analysis |
+| 🌦️ **Weather Risk** | Weather and harbour-risk assessment |
+| 📈 **Margin Optimisation** | Cost, revenue and profit-margin analysis |
+| 📜 **Customs & HS Codes** | Customs, tariff and compliance decision support |
+| 📄 **Shipping Documents** | Quote and Bill of Lading document processing |
+| 🌐 **Translation** | Multilingual maritime document and SOP translation |
+| 📚 **Document RAG** | Question answering from uploaded PDF knowledge |
+
+---
+
+# 👥 Team FreightQuote AI
 
 **Infosys Springboard Internship — Batch 1**
 
-### Team FreightQuote AI
-
-| No. | Team Member | Contribution |
+| # | Team Member | Primary Contribution |
 |:---:|---|---|
-| 01 | **Tharani Mahasamudram** | Agent validation and testing, verification of agent functionality and error-free execution, architecture/PPT support and quality checking |
-| 02 | **Samathasri Kamireddy** | Project development, presentation/PPT support and integration activities |
-| 03 | **Kavya Shree** | Project development and integrated platform contribution |
-| 04 | **Yuvanesh V** | Project development, platform integration and documentation support |
-| 05 | **Sravya Nanda** | Project development and integrated platform contribution |
-| 06 | **Sai Laghuvar** | Project development and integrated platform contribution |
+| **01** | **Tharani Mahasamudram** | Agent validation and testing, verification of agent functionality and error-free execution, architecture/PPT support and quality checking |
+| **02** | **Samathasri Kamireddy** | Project development, presentation/PPT support and integration activities |
+| **03** | **Kavya Shree** | Project development and integrated platform contribution |
+| **04** | **Yuvanesh V** | Project development, platform integration and documentation support |
+| **05** | **Sravya Nanda** | Project development and integrated platform contribution |
+| **06** | **Sai Laghuvar** | Project development and integrated platform contribution |
 
-> The project was developed collaboratively, with contributions across development, testing, integration, documentation and presentation.
-
----
-
-## 🧭 Project Overview
-
-### Problem Statement
-
-Maritime freight operations involve pricing, route planning, carrier selection, weather conditions, customs requirements and shipping documents. These activities can require information from different sources, making decisions slower and harder to manage.
-
-### Solution
-
-**FreightQuote AI** brings these capabilities together in one agentic decision-support platform.
-
-It combines specialised AI agents, machine-learning models, database queries, route calculations, live weather information, document retrieval and an LLM-based copilot to support maritime freight decisions.
-
-### Key Capabilities
-
-- Freight pricing and quote analysis
-- Route and port intelligence
-- Carrier performance and capacity analysis
-- Weather and harbour risk assessment
-- Freight margin prediction and optimisation
-- Customs, tariff and HS-code intelligence
-- Bill of Lading and document processing
-- Multilingual maritime document translation
-- PDF/document-based knowledge retrieval
+> FreightQuote AI was developed collaboratively, with the team contributing across development, validation, integration, documentation and presentation.
 
 ---
 
-## 🎯 Objectives
+# 🎯 Why We Built It
 
-The main objective is to provide a unified platform that can:
+Maritime freight decisions depend on several connected factors: **price, route, carrier, weather, margin, customs and documentation**.
 
-1. Assist with maritime freight pricing and route decisions.
-2. Analyse carrier, weather, margin and customs-related information.
-3. Process shipping documents and extract useful information.
-4. Provide multilingual and document-grounded assistance.
-5. Combine multiple specialised agents through a common AI Copilot.
-6. Support secure, role-based access and administration.
-7. Provide useful insights through dashboards and analytics.
+When these are handled through separate sources, decision-making becomes slower and information can be difficult to connect.
+
+### Our approach
+
+**Bring the information together → let specialised agents handle specific tasks → ground responses in application data → present the result through one platform.**
 
 ---
 
-## 🏗️ System Architecture
+# 🧩 The 9-Agent Intelligence Grid
 
-The platform follows a layered architecture connecting the user interface, authentication, agent orchestration, data sources, AI models and retrieval components.
+Instead of treating the agents as one large system, FreightQuote AI separates freight operations into focused intelligence areas.
+
+### 🟢 01 — PORT & ROUTE INTELLIGENCE
+`Routing • Congestion • Port intelligence`
+
+Optimises maritime routes and considers port/congestion information.
+
+### 🟡 02 — DYNAMIC FREIGHT PRICING
+`Quotes • Rates • Pricing analysis`
+
+Supports freight quote prediction and pricing decisions.
+
+### 🔴 03 — CARRIER PERFORMANCE & SAFETY
+`Reliability • Capacity • Safety`
+
+Provides carrier-performance and capacity intelligence.
+
+### 🔵 04 — WEATHER RISK & HARBOR SAFETY
+`Weather • Storms • Port risk`
+
+Supports weather and harbour-risk assessment using live weather information.
+
+### 🟣 05 — FREIGHT MARGIN OPTIMIZER
+`Cost • Revenue • Profit margin`
+
+Analyses freight profitability, cost and margin behaviour.
+
+### 🟢 06 — CUSTOMS & HS CODE COMPLIANCE
+`Customs • Tariffs • HS Codes`
+
+Supports customs, tariff and regulatory decisions.
+
+### 🟡 07 — QUOTE & BILL OF LADING DOCS
+`Quotes • BoL • Shipping documents`
+
+Processes shipping documents and supports quote/document generation.
+
+### 🔴 08 — DOCUMENT & POLICY TRANSLATION
+`Multilingual • Maritime • SOPs`
+
+Provides multilingual translation for maritime documents and policies.
+
+### 🔵 09 — CUSTOM PDF KNOWLEDGE BASE
+`PDF • FAISS • RAG`
+
+Retrieves relevant information from uploaded PDF documents and uses the retrieved evidence for answers.
+
+---
+
+## 🖼️ Agent Interface
 
 <p align="center">
-  <img src="docs/architecture-diagram.png" alt="FreightQuote AI System Architecture" width="950">
+  <img src="docs/screenshots/agent-example.jpeg" alt="FreightQuote AI Agent Interface" width="900">
 </p>
 
-### High-Level Flow
+---
+
+# 🏗️ How the Platform Works
+
+The platform follows a layered flow from the user interface to authentication, agent orchestration, data/retrieval services and grounded generation.
+
+<p align="center">
+  <img src="docs/architecture-diagram.png" alt="FreightQuote AI Architecture" width="950">
+</p>
+
+### Simplified execution path
 
 ```text
-User
-  ↓
-Authentication & RBAC
-  ↓
-FreightQuote AI Platform
-  ↓
-Multi-Agent Orchestration
-  ↓
-SQLite / FAISS / ML Models / External APIs
-  ↓
-Qwen 2.5 LLM
-  ↓
-Grounded Final Response
+                 USER
+                   │
+                   ▼
+          AUTHENTICATION + RBAC
+                   │
+                   ▼
+         FREIGHTQUOTE AI PLATFORM
+                   │
+                   ▼
+        MULTI-AGENT ORCHESTRATION
+          ┌────────┼─────────┐
+          ▼        ▼         ▼
+        SQL      ML/API     RAG
+          └────────┼─────────┘
+                   ▼
+             QWEN 2.5 LLM
+                   │
+                   ▼
+          GROUNDED RESPONSE
 ```
 
 ---
 
-## 🤖 The 9 Specialised Agents
+# 🛠️ Technology Stack
 
-| # | Agent | Purpose |
-|:---:|---|---|
-| 1 | 🗺️ **Port & Route Intelligence** | Route optimisation and congestion-aware maritime routing |
-| 2 | 💰 **Dynamic Freight Pricing** | Freight quote prediction and pricing analysis |
-| 3 | 🚢 **Carrier Performance & Safety** | Carrier reliability, safety and capacity intelligence |
-| 4 | 🌦️ **Weather Risk & Harbor Safety** | Weather, storm and port-risk assessment |
-| 5 | 📊 **Freight Margin Optimizer** | Cost, revenue and profit-margin analysis |
-| 6 | 📜 **Customs & HS Code Compliance** | Customs, tariff and regulatory decision support |
-| 7 | 📄 **Quote & Bill of Lading Docs** | Shipping-document processing and quote document generation |
-| 8 | 🌐 **Document & Policy Translation** | Multilingual maritime document and SOP translation |
-| 9 | 📚 **Custom PDF Knowledge Base** | RAG-based retrieval from uploaded PDF documents |
-
----
-
-## 🧰 Technology Stack
-
-| Area | Technologies |
+| Layer | Technologies |
 |---|---|
-| **Frontend / UI** | Streamlit, Streamlit option menu |
-| **Backend** | Python, FastAPI |
-| **LLM** | Qwen2.5-3B-Instruct |
-| **RAG / Vector Search** | FAISS, sentence-transformers |
-| **Database** | SQLite |
-| **Machine Learning** | scikit-learn |
-| **Weather** | Open-Meteo REST API |
-| **Visualisation** | Plotly, Folium, Streamlit-Folium |
-| **Authentication** | PyJWT, bcrypt |
-| **Translation** | NLLB-200 |
-| **Tunnelling / Access** | ngrok / Cloudflare Tunnel |
-| **Reporting** | ReportLab / FPDF |
-| **Development** | Google Colab |
+| 🎨 **UI** | Streamlit, Streamlit option menu |
+| ⚙️ **Backend** | Python, FastAPI |
+| 🧠 **LLM** | Qwen2.5-3B-Instruct |
+| 🔎 **RAG** | FAISS, sentence-transformers |
+| 🗃️ **Database** | SQLite |
+| 📊 **ML** | scikit-learn |
+| 🌦️ **Weather** | Open-Meteo REST API |
+| 🗺️ **Visualisation** | Plotly, Folium, Streamlit-Folium |
+| 🔐 **Security** | PyJWT, bcrypt |
+| 🌐 **Translation** | NLLB-200 |
+| 📄 **Reporting** | ReportLab / FPDF |
+| ☁️ **Development** | Google Colab |
+| 🔗 **Tunnelling** | ngrok / Cloudflare Tunnel |
 
 ---
 
-## 🧠 AI Copilot
+# 🧠 AI Copilot — The Common Interface
 
-The AI Copilot acts as the common interface for interacting with the specialised agents.
+The AI Copilot provides a single conversational entry point to the freight-intelligence platform.
 
-### Grounded Answer Flow
+### Answer pipeline
 
 ```text
-User Question
-      ↓
+Question
+   ↓
 Intent Classification
-      ↓
+   ↓
 Grounded Query / Tool Selection
-      ↓
+   ↓
 SQL / Agent / RAG Retrieval
-      ↓
-Qwen 2.5 LLM
-      ↓
-Grounded Final Answer
+   ↓
+Qwen 2.5
+   ↓
+Grounded Answer
 ```
 
-The Copilot is designed to prioritise retrieved application data and RAG evidence rather than inventing unsupported facts.
+The Copilot is designed to use retrieved application information and document evidence rather than freely inventing unsupported values.
 
 <p align="center">
-  <img src="docs/screenshots/copilot-chat.jpeg" alt="FreightQuote AI Copilot" width="800">
+  <img src="docs/screenshots/copilot-chat.jpeg" alt="FreightQuote AI Copilot" width="900">
 </p>
 
 ---
 
-## 🔐 Authentication & Security
+# 🔐 Authentication & Role-Based Access
 
-The platform includes secure access and role-based functionality.
-
-### Authentication Flow
+The platform uses authentication and role-based access to control what different users can see and use.
 
 ```text
-Sign Up / Login
+Signup / Login
       ↓
 Forgot Password / OTP
       ↓
 Security Verification
       ↓
-Secure Session / JWT
+JWT Session
       ↓
-Role-Based Access
+Role-Scoped Platform
 ```
 
-### Roles
+### Access roles
 
-- **Admin**
-- **Freight Broker / Operations Manager**
-- **Dispatcher**
-- **Customer / Client**
-
-Authentication and session handling use JWT-based sessions and password hashing with bcrypt.
+| Role | Access |
+|---|---|
+| 👑 **Admin** | Full platform access and administration |
+| 💼 **Freight Broker / Ops Manager** | Operational agents and Copilot |
+| 🚚 **Dispatcher** | Copilot and selected operational agents |
+| 👤 **Customer / Client** | Copilot and quote-related functionality |
 
 <p align="center">
-  <img src="docs/screenshots/login.jpeg" alt="FreightQuote AI Login" width="650">
+  <img src="docs/screenshots/login.jpeg" alt="FreightQuote AI Login" width="700">
 </p>
 
 ---
 
-## 🛠️ Admin Dashboard
+# 👨‍💼 Admin Command Center
 
-The Admin Dashboard provides administrative visibility over the platform and user management.
+The Admin Dashboard provides a central view of users, platform information, ML performance and audit activity.
 
-Key areas include:
+### Main areas
 
 - User management
 - Role management
 - Platform status
-- ML model performance information
-- Copilot activity and audit information
+- ML model performance
+- Copilot/audit information
 
 <p align="center">
-  <img src="docs/screenshots/admin_dashboard.jpeg" alt="FreightQuote AI Admin Dashboard" width="850">
+  <img src="docs/screenshots/admin_dashboard.jpeg" alt="FreightQuote AI Admin Dashboard" width="900">
 </p>
 
 ---
 
-## 📊 Machine Learning
+# 📊 Machine Learning Intelligence
 
-Machine-learning models are used across the platform for prediction and classification tasks.
+Machine-learning models support prediction and classification tasks across the platform.
 
-The project includes model benchmarking across algorithms such as:
+### Models explored
 
-- Random Forest
-- Gradient Boosting
-- Extra Trees
-- Decision Tree
-- Logistic Regression
-- Ridge Regression
-- AdaBoost
-- KNN
-- SVM
-- MLP
+`Random Forest` · `Gradient Boosting` · `Extra Trees` · `Decision Tree`
 
-Model performance is evaluated using appropriate metrics such as **accuracy, F1 score and regression performance measures**, depending on the task.
+`Logistic Regression` · `Ridge Regression` · `AdaBoost` · `KNN` · `SVM` · `MLP`
+
+Model performance is evaluated using task-appropriate measures such as **accuracy, F1 score and regression metrics**.
 
 ---
 
-## 🖼️ Screenshots & Demo
+# 📸 Project Screenshots
 
 ### 🔑 Login
-
 <p align="center">
-  <img src="docs/screenshots/login.jpeg" alt="Login Screen" width="700">
+  <img src="docs/screenshots/login.jpeg" alt="Login" width="800">
 </p>
 
 ### 🤖 AI Copilot
-
 <p align="center">
-  <img src="docs/screenshots/copilot-chat.jpeg" alt="AI Copilot Screen" width="850">
+  <img src="docs/screenshots/copilot-chat.jpeg" alt="AI Copilot" width="900">
 </p>
 
-### 🧩 Agent Interface
-
+### 🤖 Specialised Agent
 <p align="center">
-  <img src="docs/screenshots/agent-example.jpeg" alt="Agent Example Screen" width="850">
+  <img src="docs/screenshots/agent-example.jpeg" alt="Agent" width="900">
 </p>
 
 ### 👨‍💼 Admin Dashboard
-
 <p align="center">
-  <img src="docs/screenshots/admin_dashboard.jpeg" alt="Admin Dashboard Screen" width="850">
+  <img src="docs/screenshots/admin_dashboard.jpeg" alt="Admin Dashboard" width="900">
 </p>
 
-### 🏗️ Architecture Diagram
-
+### 🏗️ Architecture
 <p align="center">
-  <img src="docs/architecture-diagram.png" alt="System Architecture Diagram" width="950">
+  <img src="docs/architecture-diagram.png" alt="Architecture Diagram" width="950">
 </p>
-
-### 🎬 Project Demo
-
-The repository also contains a complete application walkthrough.
-
-**[▶️ Open the FreightQuote AI Demo](docs/demo.mp4)**
 
 ---
 
-## 📁 Project Structure
+# 🎬 Demo
+
+A complete walkthrough is included in the repository:
+
+**[▶️ Watch the FreightQuote AI Demo](docs/demo.mp4)**
+
+---
+
+# 📁 Repository Structure
 
 ```text
 FreightQuote_AI/
@@ -333,29 +348,20 @@ FreightQuote_AI/
 
 ---
 
-## ⚙️ Installation & Run
+# 🚀 Installation & Run
 
-### Prerequisites
-
-- Python 3.10+
-- Git
-- Required API credentials
-- Optional GPU access for local LLM execution
-
-### 1. Clone the Repository
+### 1. Clone
 
 ```bash
 git clone <repository-url>
 cd FreightQuote_AI
 ```
 
-### 2. Create a Virtual Environment
+### 2. Create environment
 
 ```bash
 python -m venv .venv
 ```
-
-Activate it:
 
 **Windows**
 ```bash
@@ -367,31 +373,29 @@ Activate it:
 source .venv/bin/activate
 ```
 
-### 3. Install Dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure Environment Variables
+### 4. Configure environment variables
 
-Copy `.env.example` to `.env` and configure the required credentials.
+Create `.env` from `.env.example` and add the required credentials.
 
-> ⚠️ Never commit real API keys, passwords, tokens or other secrets to GitHub.
-
-### 5. Run the Application
+### 5. Start the application
 
 ```bash
 streamlit run app.py
 ```
 
+> 🔒 **Never commit real passwords, API keys, tokens or other secrets to GitHub.**
+
 ---
 
-## 🔑 Secrets & Environment Variables
+# 🔑 Environment Variables
 
-The project uses environment variables for external services and authentication.
-
-Typical configuration includes:
+The project uses environment variables for authentication and external services.
 
 ```text
 HF_TOKEN
@@ -405,65 +409,61 @@ EMAIL_ID
 EMAIL_PASSWORD
 ```
 
-Use `.env.example` as the reference template.
+Use `.env.example` as the safe configuration template.
 
 ---
 
-## 🚧 Challenges & Learnings
+# 🚧 Challenges & Learnings
 
-### Grounded AI
+### 01 — Keeping AI Responses Grounded
+The Copilot needed to distinguish between available data and missing information so that unsupported values were not presented as facts.
 
-One important challenge was ensuring that the Copilot provides grounded responses instead of generating unsupported information. Retrieval and application data are prioritised for factual answers.
+### 02 — Live Weather Reliability
+External weather requests can occasionally experience delays or timeouts, requiring graceful handling and fallback behaviour.
 
-### Live Weather
+### 03 — Shared SQLite Access
+Multiple agents interact with shared application data, making reliable database access and session handling important during integration.
 
-Live weather API calls can experience delays or timeouts. The system therefore needs graceful handling when live information is temporarily unavailable.
-
-### Multi-Agent Database Access
-
-Multiple agents may access shared application data. Managing concurrent SQLite access and maintaining reliable session/database behaviour was an important integration challenge.
-
-### LLM Resources
-
-Running an LLM locally requires careful handling of available compute and memory resources. The project uses Qwen2.5-3B-Instruct with a fallback approach when required.
+### 04 — Running an LLM with Limited Resources
+Running Qwen2.5-3B required attention to available compute and memory, with fallback handling where necessary.
 
 ---
 
-## 🔮 Future Scope
+# 🔮 Future Scope
 
-Potential future improvements include:
-
-1. ☁️ **Cloud-Native Scaling** — deploy the platform on cloud infrastructure for scalable multi-user operations.
-2. 🚢 **Real Carrier API Integrations** — connect live carrier and market-rate feeds.
-3. 🗄️ **PostgreSQL Migration** — move from SQLite to a production-oriented relational database for larger concurrent workloads.
-4. 📱 **Mobile Alerts** — provide real-time shipment, weather and customs-related notifications.
+| Next Step | Direction |
+|---|---|
+| ☁️ **Cloud-Native Scaling** | Deploy for scalable multi-user operations |
+| 🚢 **Real Carrier APIs** | Connect live carrier and market-rate feeds |
+| 🗄️ **PostgreSQL** | Move toward production-scale concurrent database usage |
+| 📱 **Mobile Alerts** | Push shipment, weather and customs-related notifications |
 
 ---
 
-## 🙏 Acknowledgements
+# 🙏 Acknowledgements
 
 This project was developed as part of the **Infosys Springboard Internship — Batch 1**.
 
-We are grateful for the opportunity to learn, build, test and continuously improve the FreightQuote AI platform throughout the internship journey.
+We sincerely thank our mentor **Mohammed Sipli M** for his guidance, support, feedback and encouragement throughout the project.
 
-### 👥 Team FreightQuote AI
+### 💙 A Special Thank You
 
-**Tharani Mahasamudram** · **Samathasri Kamireddy** · **Kavya Shree** · **Yuvanesh V** · **Sravya Nanda** · **Sai Laghuvar**
-
-### 👨‍🏫 Mentor
-
-**Mohammed Sipli M**
+**Sir, thank you for everything — for guiding us, correcting us when needed, encouraging us to improve, and giving us the opportunity to learn through this project. Your support helped us understand not only how to build the platform, but also how to work as a team and present our work with confidence.**
 
 ---
 
 <div align="center">
 
-## 🚢 FreightQuote AI
+### 🚢 FREIGHTQUOTE AI
 
 **Agentic AI for Maritime Freight Pricing & Route Optimization**
 
-*Infosys Springboard Internship — Batch 1*
+<br>
 
-**Built with curiosity • collaboration • continuous learning**
+**Tharani Mahasamudram · Samathasri Kamireddy · Kavya Shree · Yuvanesh V · Sravya Nanda · Sai Laghuvar**
+
+<br>
+
+*Infosys Springboard Internship — Batch 1*
 
 </div>
