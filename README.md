@@ -2,6 +2,52 @@
 
 # 🚢 FreightQuote AI
 
+### Agentic AI for Maritime Freight Intelligence
+
+<p>
+  <i>Intelligent decision support for modern ocean-freight operations</i>
+</p>
+
+---
+
+<table>
+<tr>
+<td align="center">🤖<br><b>9 AI Agents</b><br><sub>Specialised freight intelligence</sub></td>
+<td align="center">🧠<br><b>AI Copilot</b><br><sub>Grounded responses</sub></td>
+<td align="center">📊<br><b>ML Intelligence</b><br><sub>Prediction & analysis</sub></td>
+</tr>
+
+<tr>
+<td align="center">🔎<br><b>RAG</b><br><sub>PDF knowledge retrieval</sub></td>
+<td align="center">🌦️<br><b>Live Weather</b><br><sub>Port & route risk</sub></td>
+<td align="center">🔐<br><b>Secure Access</b><br><sub>JWT + RBAC + OTP</sub></td>
+</tr>
+</table>
+
+<br>
+
+**Route Intelligence** &nbsp;→&nbsp;
+**Dynamic Pricing** &nbsp;→&nbsp;
+**Carrier Analysis** &nbsp;→&nbsp;
+**Weather Risk**
+
+**Margin Optimization** &nbsp;→&nbsp;
+**Customs** &nbsp;→&nbsp;
+**Documents** &nbsp;→&nbsp;
+**Translation** &nbsp;→&nbsp;
+**RAG**
+
+<br>
+
+<sub>
+Infosys Springboard Internship · Batch 1
+</sub>
+
+</div>
+<div align="center">
+
+# 🚢 FreightQuote AI
+
 ### Agentic AI for Maritime Freight Pricing & Route Optimization
 
 <p>
