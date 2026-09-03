@@ -144,7 +144,7 @@ Grounded Final Response
 
 ### Architecture Diagram
 
-![FreightQuote AI System Architecture](docs/screenshots/architecture-diagram.png)
+![FreightQuote AI System Architecture](docs/architecture-diagram.png)
 
 The architecture separates the user-facing application from the specialised agents, data sources, retrieval components and AI generation layer.
 
@@ -457,7 +457,7 @@ The repository includes selected screenshots demonstrating the platform.
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](docs/screenshots/architecture-diagram.png)
+![Architecture Diagram](docs/architecture-diagram.png)
 
 ---
 
