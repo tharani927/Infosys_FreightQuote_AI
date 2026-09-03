@@ -1,3 +1,10 @@
+<p align="center">
+  <b>Agentic AI for Maritime Freight Pricing & Route Optimization</b>
+</p>
+
+<p align="center">
+  9 Specialised Agents · Grounded AI Copilot · Machine Learning · RAG
+</p>
 # 🚢 FreightQuote AI
 
 > **Agentic AI for Maritime Freight Pricing & Route Optimization**
