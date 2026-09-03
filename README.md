@@ -47,6 +47,8 @@ Infosys Springboard Internship · Batch 1
 <div align="center">
 
 
+---
+
 FreightQuote AI is an agentic decision-support platform for maritime freight operations. It brings together **route intelligence, freight pricing, carrier performance, weather risk, customs and tariff support, document processing, multilingual translation, and PDF-based knowledge retrieval** in a single platform.
 
 The platform combines **9 specialised AI agents, machine-learning models, RAG-based retrieval, live weather information, SQLite, and a grounded AI Copilot** to support faster and more informed freight decisions.
