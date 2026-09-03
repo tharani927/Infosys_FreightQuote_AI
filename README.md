@@ -30,11 +30,6 @@ The platform combines **9 specialised AI agents, machine-learning models, RAG-ba
 
 ---
 
-FreightQuote AI is an agentic decision-support platform designed for maritime freight operations. It brings routing, freight pricing, carrier intelligence, weather risk, customs and tariff support, document processing, multilingual translation, and document-based knowledge retrieval into one platform.
-
-The system combines **9 specialised AI agents**, **machine-learning models**, **RAG-based retrieval**, **live weather information**, **SQLite**, and a **grounded AI Copilot** to support faster and more informed freight decisions.
-
----
 
 ## ✨ What the Platform Provides
 
